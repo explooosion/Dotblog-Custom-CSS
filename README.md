@@ -1,2 +1,4 @@
 # Dotblog-Custom-CSS
-This css is for dotblog custom style
+
+點部落組態設定中的自訂樣式。
+
