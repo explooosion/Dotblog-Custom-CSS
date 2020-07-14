@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+/* FONTS */
+
+html, body {
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+}
+
+/* 文章內容首行 */
+
+.article__desc {
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 文章標題 */
+
+.article__title:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.article__title {
+    font-size: 20px;
+    color: #56cbf9;
+    -webkit-transition: all .3s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .3s ease;
+    /* Firefox */
+    -o-transition: all .3s ease;
+    /* Opera */
+    -ms-transition: all .3s ease;
+    /* IE 9 */
+    transition: all .3s ease;
+}
+
+.article__title a {
+    text-decoration: none;
+    color: #56cbf9;
+}
+
+/* 頁面標題 */
+
+.page-header__title a {
+    text-decoration: none;
+}
+
+/* 標籤及右側管理列連結 */
+
+.side-block__content *, .article__tags a, .article__status a {
+    color: #81f4e1;
+}
+
+.side-block__content *:hover, .article__tags a:hover, .article__status a:hover {
+    color: #69c3a6;
+    text-decoration: none;
+}
+
+/* 回首頁 */
+
+.article__navs a {
+    margin: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #4bb1d9;
+    color: #ffffff;
+}
+
+.article__navs a:hover {
+    background-color: #429cbf;
+    text-decoration: none;
+}
+
+.article__navs {
+    padding-top: 5px;
+    border-bottom: none;
+}
