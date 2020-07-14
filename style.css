@@ -2,15 +2,13 @@
 /* FONTS */
 
 html, body {
-    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', Arial, Helvetica, sans-serif;
 }
 
 /* 文章內容首行 */
 
 .article__desc {
-    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     font-size: 18px;
-    font-weight: bold;
 }
 
 /* 文章標題 */
